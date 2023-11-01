@@ -2,7 +2,7 @@
   width: 30vw;
   height: 50vh;
   background-color: palegoldenrod;
-
+  margin: 0 auto;
 }
 .form{
   display: flex;

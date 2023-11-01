@@ -7,8 +7,8 @@ function StudentDashboard() {
   return (
     <div>
       <h2>Student Dashboard</h2>
-      {/* <NavLink to='/student/form' Component={<Form/>}>Form</NavLink> */}
-      <Form/>
+      <NavLink to="/forms"><h3>Form</h3></NavLink>
+      <NavLink to="/my-response"><h3>My Response</h3></NavLink>
     </div>
   );
 }

@@ -43,7 +43,7 @@ function Forms() {
   };
   return (
     <div className='main'>
-      <h3>Forms</h3>
+      <h1>Forms</h1>
       <form className='form' onSubmit={handleSubmit}>
         <div>
           <label>Name:</label>
