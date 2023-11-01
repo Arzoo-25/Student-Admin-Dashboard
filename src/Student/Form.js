@@ -32,8 +32,8 @@ function Forms() {
     setFormData({ ...formData, [name]: value });
   };
 
-  const onFileDrop = (files) => {
-    const fileList = Object.values(files).map((file)=>{
+  const onFileDrop = (e) => {
+    const fileList = Object.values(e).map((file)=>{
       return{
           url: URL.createObjectURL(file),
           data: file,
